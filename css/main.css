@@ -1,11 +1,15 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: purple;
-  margin: 0%;
+  background-image: url("../assets/images/hero.gif");
+  box-sizing: border-box;
+  display: block;
+  height: 40em;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-/*-----------------------------------------------------*/
+/*--Navigation---------------------------------------------------*/
 
 .logo{
   text-align: left;
@@ -15,16 +19,7 @@ body {
   width: 3em;
 }
 
-section{
-  background-image: url("../assets/images/hero.gif");
-  box-sizing: border-box;
-  display: block;
-  height: 40em;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-/*--Menu----------------------------------------------------*/
+/*--Navigation-Menu---------------------------------------------*/
 
 .menu {
  color:white;
@@ -47,6 +42,18 @@ section{
  padding: 40px;
  text-decoration: none;
 }
+
+/*--Cover-------------------------------------------------------*/
+
+section{
+box-sizing: border-box;
+display: block;
+float: right;
+padding: 3em;
+padding-right: 3em;
+}
+
+
 
 .signup {
   box-sizing: border-box;
